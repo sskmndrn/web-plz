@@ -26,6 +26,8 @@ useSeoMeta({
 </script> -->
 
 <template>
+  <NuxtPage />
+  <UIcon name="i-lucide-lightbulb" size="30px"/>
   <div style="background-color: white; width: 100vw; height: 100vh;" >
     <UButton>fdsfs</UButton>
 
