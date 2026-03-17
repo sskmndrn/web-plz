@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 useHead({
   meta: [
     { name: 'viewport', content: 'width=device-width, initial-scale=1' }
@@ -23,8 +23,12 @@ useSeoMeta({
   twitterImage: 'https://ui.nuxt.com/assets/templates/nuxt/starter-light.png',
   twitterCard: 'summary_large_image'
 })
-</script>
+</script> -->
 
 <template>
+  <div style="background-color: white; width: 100vw; height: 100vh;" >
+    <UButton>fdsfs</UButton>
+
+  </div>
 
 </template>

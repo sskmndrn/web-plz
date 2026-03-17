@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <UDropdownMenu
     v-slot="{ open }"
     :modal="false"
@@ -46,4 +46,4 @@
       }"
     />
   </UDropdownMenu>
-</template>
+</template> -->
