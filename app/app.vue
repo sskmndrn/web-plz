@@ -26,11 +26,11 @@ useSeoMeta({
 </script> -->
 
 <template>
-  <NuxtPage />
-  <UIcon name="i-lucide-lightbulb" size="30px"/>
-  <div style="background-color: white; width: 100vw; height: 100vh;" >
-    <UButton>fdsfs</UButton>
-
+  <AppHeader />
+  <div style="display: flex; background-color: white;">
+    <TemplateMenu />
   </div>
-
+  <div>
+    <AppFooter />
+  </div>
 </template>

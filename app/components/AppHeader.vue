@@ -1,12 +1,11 @@
 <template>
-  <header>
+  <header style="background-color: white; display: flex; justify-content: center; align-items: center;">
     <div class="pages">
       <ul class="nav">
         <li class="nav-element">
           <NuxtLink to="/" class="nav-element-ref">
-            <img src="c:\Users\User\Desktop\web-plz\nuxt-app\public\apple-logo.png" alt="logo Apple" width="16px"
-              class="logo-apple">
-          </NuxtLink>
+            <UIcon name="i-simple-icons-apple" class="size-22px"/>
+          </NuxtLink>  
         </li>
         <li class="nav-element">
           <NuxtLink to="/macbook" class="nav-element-ref">
@@ -64,14 +63,11 @@
           </NuxtLink>
         </li>
         <li class="nav-element">
-          <img src="C:\Users\User\Desktop\web-plz\nuxt-app\public\icons\icons8-тележка-для-покупок-30.png"
-            alt="shoping cart" width="16px">
-        </li>
-        <li class="nav-element">
-          <UButton color="primary" loading>Button</UButton>
+          <NuxtLink to="/cart" class="nav-element-ref">
+            <UIcon name="ion-bag-outline"/>
+          </NuxtLink>
         </li>
       </ul>
-
     </div>
   </header>
 </template>
@@ -83,24 +79,31 @@
   justify-content: center;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
 .nav-element {
   list-style: none;
-  display: inline;
-  padding-left: 5px;
-  padding-right: 5px;
+  display: inline-block;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 
 .nav-element-ref {
   text-decoration: none;
   color: black;
-}
-
-.logo-apple {
-  padding-top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transition: 0.35s;
 }
 
-.logo-apple:hover {
+.nav-element-ref:hover {
   transform: scale(1.1);
 }
+
+
 </style>
